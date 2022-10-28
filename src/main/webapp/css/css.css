@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+body{
+	background-color:Azure;
+}
+header{
+	background-color:Azure;
+	height:3em;	
+}
+.cabecalho li{
+	
+	display:inline;
+	text-transform:uppercase;
+	padding:6em;
+}
+.cabecalho a{
+	text-decoration:none;
+	color:black;
+}
+.controle{
+	display:flex;
+	flex-direction:row;
+	box-sizing:border-box;
+	
+		
+}
+.controle div{
+	background-color:black;
+	color:white;	
+	text-align:center;
+	box-sizing:border-box;
+	margin:20em 0em;
+	width:40%;
+	
+}
+.cor{
+	background-color:red;
+	text-transform:uppercase;
+	box-sizing:border-box;
+}
+.controle h2{
+	text-transform:uppercase;
+}
+main{
+	height:50em;
+}
+footer{
+	width:80%;
+	margin:auto;
+}
+.controle2{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	background-color:black;
+}
+.controle2 div{
+	width:33%;
+	margin:0em 0.1em;
+}
+.mapa ul{
+	display:flex;
+	flex-direction:row;	
+	flex-wrap:wrap;
+	background-color:azure;
+	
+}
+.mapa li{
+	width:50%;
+	text-transform:uppercase;
+	text-decoration:none;	
+	list-style-type: none;
+}
+.redes{
+	text-align:center;
+
+	background-color:azure;
+}
+.mapa{
+	background-color:azure;
+	
+}
+.sobre{
+	background-color:azure;
+	
+}
+.mapa h2{
+	text-align:center;
+	background-color:black;
+	width:50%;
+	color:white;
+	margin:1em auto;
+}
+.paginas{
+	margin:auto 15em;
+}
